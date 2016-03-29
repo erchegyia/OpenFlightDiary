@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("OpenFlightDiary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Lufthansa Systems FlightNav AG")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("OpenFlightDiary")]
-[assembly: AssemblyCopyright("Copyright © Lufthansa Systems FlightNav AG 2016")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
