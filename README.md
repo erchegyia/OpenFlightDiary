@@ -1,2 +1,2 @@
 # OpenFlightDiary
-Converts flighdiary.net format to openflights.org format
+Small C# project, Converts flighdiary.net CSV format to openflights.org format
