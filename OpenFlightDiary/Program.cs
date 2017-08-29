@@ -8,11 +8,7 @@ namespace OpenFlightDiary
         static void Main(string[] args)
         {
             string usage = "Usage:\n\tOpenFlightDiary.exe FlightDiaryPath OpenflightPath [overwriteAirline]";
-#if DEBUG
-            args = new string[2];
-            args[0] = "fd.csv";
-            args[1] = "of.csv";
-#endif
+
             if (args.Length < 2)
             {
                 Console.WriteLine("Too less arguments!\n" + usage);

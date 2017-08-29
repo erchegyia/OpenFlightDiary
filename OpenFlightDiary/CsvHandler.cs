@@ -7,7 +7,7 @@ namespace OpenFlightDiary
 {
     static class CsvHandler
     {
-        static internal List<FlightDiaryEntry> ReadAllFlightDiaryEntries(string path)
+        internal static List<FlightDiaryEntry> ReadAllFlightDiaryEntries(string path)
         {
             List<FlightDiaryEntry> resList = new List<FlightDiaryEntry>();
             bool header = true;
@@ -43,12 +43,12 @@ namespace OpenFlightDiary
             return resList;
         }
 
-        static internal void WriteOpenFlightEntries(string path, List<OpenFlightsEntry> list)
+        internal static void WriteOpenFlightEntries(string path, List<OpenFlightsEntry> list)
         {
             WriteOpenFlightEntries(path, list, false);
         }
 
-        static internal void WriteOpenFlightEntries(string path, List<OpenFlightsEntry> list, bool overwriteAirline)
+        internal static void WriteOpenFlightEntries(string path, List<OpenFlightsEntry> list, bool overwriteAirline)
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Date,From,To,Flight_Number,Airline,Distance,Duration,Seat,Seat_Type,Class,Reason,Plane,Registration,Trip,Note,From_OID,To_OID,Airline_OID,Plane_OID");
